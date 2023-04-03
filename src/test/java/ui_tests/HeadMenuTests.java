@@ -28,7 +28,7 @@ public class HeadMenuTests extends TestsBase {
     @Test
     public void checkVacancies() {
 
-        // $("#careers_friend div").click();
+         $("#careers_friend div").click();
         headMenuPage
                 .checkVacanciesVisible()
                 .checkVacanciesClick()
@@ -39,7 +39,7 @@ public class HeadMenuTests extends TestsBase {
     @DisplayName("Проверка блока SocialMedia")
     @Test
     public void checkSocialMedia() {
-
+        $("#careers_friend div").click();
         headMenuPage
                 .checkVK()
                 .checkLinkedin()

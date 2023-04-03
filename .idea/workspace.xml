@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e441ab8b-ed7a-44ad-8757-e3f36eea0c19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+    <list default="true" id="e441ab8b-ed7a-44ad-8757-e3f36eea0c19" name="Changes" comment="first commit">
       <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/Attach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HeadMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui_tests/HeadMenuTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui_tests/PopUpTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui_tests/SearchTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/ui_tests/TestsBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webDrivers/WebDriverConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/webDrivers/WebDriverProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +86,7 @@
       <recent name="helpers" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.SearchTests.checkTheSearchBlock">
+  <component name="RunManager" selected="Gradle.UI_bellintegrator [allureServe]">
     <configuration name="HeadMenuTests.checkSocialMedia" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -197,9 +179,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.UI_bellintegrator [allureServe]" />
         <item itemvalue="Gradle.SearchTests.checkTheSearchBlock" />
         <item itemvalue="Gradle.SearchTests" />
-        <item itemvalue="Gradle.UI_bellintegrator [allureServe]" />
         <item itemvalue="Gradle.HeadMenuTests.checkSocialMedia" />
       </list>
     </recent_temporary>
@@ -213,6 +195,14 @@
       <option name="presentableId" value="Default" />
       <updated>1680444026910</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1680554200690</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680554200690</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,5 +215,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
   </component>
 </project>
