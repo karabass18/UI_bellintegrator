@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e441ab8b-ed7a-44ad-8757-e3f36eea0c19" name="Changes" comment="first commit">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/helpers/PopUpWatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/HamburgerMenuPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ui_tests/HamburgerMenuTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui_tests/HeadMenuTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui_tests/HeadMenuTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui_tests/SearchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui_tests/SearchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ui_tests/TestsBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ui_tests/TestsBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +80,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/IdeaProjects/UI_bellintegrator/src/test/java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -87,7 +96,7 @@
     </key>
   </component>
   <component name="RunManager" selected="Gradle.UI_bellintegrator [allureServe]">
-    <configuration name="HeadMenuTests.checkSocialMedia" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="HamburgerMenuTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -100,7 +109,30 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;ui_tests.HeadMenuTests.checkSocialMedia&quot;" />
+            <option value="&quot;ui_tests.HamburgerMenuTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HamburgerMenuTests.checkTheLogo" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;ui_tests.HamburgerMenuTests.checkTheLogo&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,9 +212,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.UI_bellintegrator [allureServe]" />
+        <item itemvalue="Gradle.HamburgerMenuTests" />
+        <item itemvalue="Gradle.HamburgerMenuTests.checkTheLogo" />
         <item itemvalue="Gradle.SearchTests.checkTheSearchBlock" />
         <item itemvalue="Gradle.SearchTests" />
-        <item itemvalue="Gradle.HeadMenuTests.checkSocialMedia" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680554200690</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1680554550089</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680554550089</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

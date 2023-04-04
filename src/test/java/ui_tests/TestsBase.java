@@ -18,7 +18,7 @@ import static io.qameta.allure.Allure.step;
 
 public class TestsBase {
 
-    // ContentConfig contentConfig = ConfigFactory.create(ContentConfig.class, System.getProperties());
+
     @BeforeAll
     static void beforeAll() {
 
@@ -48,6 +48,7 @@ public class TestsBase {
         Attach.browserConsoleLogs();
         Attach.addVideo();
     }
+
     @AfterEach
     public void CloseBrowser() {
         closeWindow();

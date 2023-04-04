@@ -6,7 +6,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.SearchPage;
 
-import static com.codeborne.selenide.Selenide.$;
+import static helpers.PopUpWatcher.checkPopUpVisibility;
 
 public class SearchTests extends TestsBase {
 
@@ -16,7 +16,7 @@ public class SearchTests extends TestsBase {
     @DisplayName("Проверка иконки")
     @Test
     public void checkTheSearchBlock() {
-        $("#careers_friend div").click();
+        checkPopUpVisibility();
         searchPage
                 .checkIconVisible()
                 .checkAppearanceTheFieldAfterClick()

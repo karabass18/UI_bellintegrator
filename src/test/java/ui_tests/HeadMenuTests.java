@@ -6,7 +6,7 @@ import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import pages.HeadMenuPage;
 
-import static com.codeborne.selenide.Selenide.$;
+import static helpers.PopUpWatcher.checkPopUpVisibility;
 
 public class HeadMenuTests extends TestsBase {
 
@@ -16,8 +16,8 @@ public class HeadMenuTests extends TestsBase {
     @DisplayName("Проверка логотипа")
     @Test
     public void checkTheLogo() {
+        checkPopUpVisibility();
 
-        $("#careers_friend div").click();
         headMenuPage
                 .checkLogoVisible()
                 .checkLogoLink("https://bellintegrator.ru");
@@ -27,8 +27,8 @@ public class HeadMenuTests extends TestsBase {
     @DisplayName("Проверка блока \"Наши вакансии\"")
     @Test
     public void checkVacancies() {
+        checkPopUpVisibility();
 
-         $("#careers_friend div").click();
         headMenuPage
                 .checkVacanciesVisible()
                 .checkVacanciesClick()
@@ -39,10 +39,12 @@ public class HeadMenuTests extends TestsBase {
     @DisplayName("Проверка блока SocialMedia")
     @Test
     public void checkSocialMedia() {
-        $("#careers_friend div").click();
+        checkPopUpVisibility();
+
         headMenuPage
                 .checkVK()
                 .checkLinkedin()
                 .checkTelegram();
     }
+
 }
