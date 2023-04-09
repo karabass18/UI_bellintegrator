@@ -66,7 +66,7 @@ gradle clean test
 ```
 ,где `remoteUrl` url адрес selenoid. В сборкe на Jenkins  `-DremoteUrl="https://user1:1234@selenoid.autotests.cloud/wd/hub" `
       
-## Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/C16-karabass18-greetgo/)
+## Запуск тестов в [Jenkins](https://jenkins.autotests.cloud/job/C16-karabass18-bell/)
 
 #### Главная страница Jenkins
 
